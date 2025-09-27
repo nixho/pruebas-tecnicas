@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import { getRandomFact, getImage} from './service/Facts';
+import { getRandomFact } from './service/Facts';
 import { useCatImage } from './hooks/CatImage';
 
 export function App() {

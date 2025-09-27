@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
+import { getImage } from '../service/Facts';
 
-function useCatImage({ fact }) {
+export function useCatImage({ fact }) {
   const [imagenURL, setImagenURL] = useState('');
 
   useEffect(() => {
